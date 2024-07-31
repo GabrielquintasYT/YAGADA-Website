@@ -11,6 +11,13 @@
             padding: 0;
             background-color: #f0f0f0;
             color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        .wrapper {
+            width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         header {
             background-color: #333;
@@ -21,6 +28,7 @@
         nav {
             background-color: #444;
             padding: 0.5rem 0;
+            text-align: center;
         }
         nav a {
             color: #fff;
@@ -35,30 +43,27 @@
             color: #fff;
             text-align: center;
             padding: 1rem 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>YAGADA Studio</h1>
-        <p>Creating immersive experiences for gamers worldwide</p>
-    </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Games</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div class="container">
-        <h2>Welcome to YAGADA Studio</h2>
-        <p>At YAGADA Studio, we are passionate about creating innovative and engaging games that captivate players around the globe. Our latest project, Operation Sunset, is an action-packed adventure set in 80's America.</p>
-        <p>Stay tuned for updates and more exciting news!</p>
-    </div>
-    <footer>
-        <p>&copy; 2024 YAGADA Studio. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+    <div class="wrapper">
+        <header>
+            <h1>YAGADA Studio</h1>
+            <p>Creating immersive experiences for gamers worldwide</p>
+        </header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Games</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="container">
+            <h2>Welcome to YAGADA Studio</h2>
+            <p>At YAGADA Studio, we are passionate about creating innovative and engaging games that captivate players around the globe. Our latest project, Operation Sunset, is an action-packed adventure set in 80's America.</p>
+            <p>Stay tuned for updates and more exciting news!</p>
+        </div>
+        <footer>
+            <p>&copy; 2024 YAGADA Studio. All rights reserved.</p>
+        </footer>
+    </
